@@ -7,8 +7,9 @@ const app = express();
 // UPDATE THIS: Add Netlify URL
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://futurexyours.vercel.app', // Keep for future
-  'https://futurexyours.netlify.app'  // ADD THIS - your current frontend
+  'https://futurexyours.vercel.app',
+  'https://futurexyours.netlify.app',
+  'https://futurexyours-frontend.onrender.com'  // ADD THIS - your current frontend
 ];
 
 app.use(cors({
