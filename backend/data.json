@@ -1,0 +1,16 @@
+{
+  "monthlyPlans": [
+    {"name":"ICICI PRUDENTIAL EQUITY","amount":500,"years":3,"return":22000},
+    {"name":"HDFC BALANCED ADVANTAGE FUND","amount":500,"years":3,"return":24000},
+    {"name":"UTI NIFTY 50 INDEX","amount":1000,"years":5,"return":82000},
+    {"name":"JM FLEXICAP FUND","amount":5000,"years":5,"return":504322},
+    {"name":"SBI GOLD CAP FUND","amount":2000,"years":7,"return":354000},
+    {"name":"ICICI COMMODITIES FUND","amount":100,"years":5,"return":13000}
+  ],
+  "yearlyPlans": [
+    {"name":"SBI LIFE SMART SHIELD PLUS","amount":50000,"years":30,"return":10000000},
+    {"name":"SBI SMART PLATINA PLUS","amount":300000,"years":10,"return":9624750},
+    {"name":"SMART PLATINA ASSURE","amount":104500,"years":15,"return":1323000},
+    {"name":"WEALTH BUILDER PLAN","amount":30000,"years":5,"return":200000}
+  ]
+}
