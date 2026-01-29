@@ -4,10 +4,11 @@ const data = require("./data.json");
 
 const app = express();
 
-// FIX: Allow multiple origins (localhost + production)
+// UPDATE THIS: Add Netlify URL
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://futurexyours.vercel.app' // Will update after frontend deploy
+  'https://futurexyours.vercel.app', // Keep for future
+  'https://futurexyours.netlify.app'  // ADD THIS - your current frontend
 ];
 
 app.use(cors({
