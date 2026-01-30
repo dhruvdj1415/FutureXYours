@@ -12,7 +12,7 @@ function RegisterForm({ onRegister }) {
     setMessage("");
     
     try {
-      const res = await fetch("http://localhost:3001/register", {
+      const res = await fetch("https://futurexyours-backend.onrender.com/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email }),
@@ -27,6 +27,7 @@ function RegisterForm({ onRegister }) {
         setMessage(`❌ ${data.error || "Registration failed"}`);
       }
     } catch {
+      console.error("Registration error:", error);
       setMessage("❌ Network error. Check if backend is running.");
     } finally {
       setLoading(false);
