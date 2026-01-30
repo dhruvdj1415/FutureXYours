@@ -16,7 +16,7 @@ function App() {
     
     try {
       const response = await fetch(
-        `http://localhost:3001/plans?type=${planType}&email=${encodeURIComponent(email)}`
+        `https://futurexyours-backend.onrender.com/plans?type=${planType}&email=${encodeURIComponent(email)}`
       );
       
       if (!response.ok) {
@@ -42,7 +42,7 @@ function App() {
       setLoading(true);
       try {
         const response = await fetch(
-          `http://localhost:3001/plans?type=${newType}&email=${encodeURIComponent(registeredEmail)}`
+          `https://futurexyours-backend.onrender.com/plans?type=${newType}&email=${encodeURIComponent(registeredEmail)}`
         );
         
         if (!response.ok) {
